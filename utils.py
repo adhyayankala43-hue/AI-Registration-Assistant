@@ -1,3 +1,6 @@
+"""
+Helper functions for security and the Brevo email dispatch API.
+"""
 import secrets
 import hashlib
 import json

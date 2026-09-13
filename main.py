@@ -45,6 +45,10 @@ MONGO_URI = os.getenv("MONGO_URI")
 
 app = FastAPI(title="Ai Registration Portal - MongoDB Integrated", version="24.0.0")
 
+@app.get("/ping")
+def ping():
+    return "ok"
+    
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

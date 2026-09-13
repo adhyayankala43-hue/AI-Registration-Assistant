@@ -1,3 +1,6 @@
+"""
+Contains all Pydantic models to strictly validate incoming API requests.
+"""
 import re
 from datetime import datetime
 from pydantic import BaseModel, Field, model_validator

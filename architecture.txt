@@ -1,4 +1,4 @@
-AI-Registration-Portal/
+AI-Registration-Assistant/
 ├── requirements.txt      # List of dependencies for GitHub actions/users
 ├── .env.example          # Safe template showing required environment variables
 ├── config.py             # Loads environment variables globally

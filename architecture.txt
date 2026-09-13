@@ -1,0 +1,15 @@
+AI-Registration-Portal/
+├── requirements.txt      # List of dependencies for GitHub actions/users
+├── .env.example          # Safe template showing required environment variables
+├── config.py             # Loads environment variables globally
+├── state.py              # Stores active sessions, OTPs, and chat history
+├── database.py           # Handles MongoDB connection and data operations
+├── schemas.py            # Pydantic models for strict data validation
+├── utils.py              # Cryptography and email dispatch functions
+├── agent.py              # LangChain AI setup and tool logic
+├── routers/
+│   ├── __init__.py       # Empty file to make 'routers' a Python module
+│   ├── auth.py           # Endpoints for student registration and login
+│   ├── admin.py          # Endpoints for master control and analytics
+│   └── chat.py           # Endpoint for the AI assistant communication
+└── main.py               # Application entry point and frontend HTML server

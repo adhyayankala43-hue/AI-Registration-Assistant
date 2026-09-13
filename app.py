@@ -1,3 +1,6 @@
+"""
+Initial commit of app.py
+"""
 import os
 from dotenv import load_dotenv
 
